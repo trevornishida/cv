@@ -1,0 +1,19 @@
+---
+title: "NishidaTrevorCV"
+author: "Trevor Nishida"
+date: "3/20/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+datadrivencv::use_datadriven_cv(
+  full_name = "Trevor Nishida",
+  data_location = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1Pi9iKcwUCyENTF6Qlps8RNVxpaCpCi75SipQnjwOOSd0_tSmGx7yaz7GCZ8XhW_7FPJ21Towiv4o/pubhtml",
+  pdf_location = 
+)
+```
+
