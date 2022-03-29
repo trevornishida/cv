@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
   echo = FALSE
 )
 
-library(magrittr) # For the pipe
+library(magrittr) # For pipe function
 source("cv_printing_functions.r")
 
 # Read in all data and initialize a CV printer object
@@ -30,7 +30,7 @@ CV <- create_CV_object(
 
 
 ```{r}
-# When in pdf export mode the little dots are unaligned, so fix that with some conditional CSS.
+# When in pdf export mode a few little dots are unaligned; implement a fix with some conditional CSS.
 if(params$pdf_mode) {
     cat("
 <style>
@@ -47,14 +47,15 @@ Aside
 
 ```{r}
 # Build interactive network of positions colored by section
-# and connected if they occurred in the same year
-datadrivencv::build_network_logo(CV$entries_data)
+# and connected if they occurred in the same year.
+# datadrivencv::build_network_logo(CV$entries_data)
 ```
 
 
 ```{r}
+# If printing PDF link to HTML and if printing HTML link location of PDF on Github
 if(params$pdf_mode){
-  cat("View this CV online with links at _trevornishida.com/s/cv.pdf_")
+  cat("View this CV online with links at _trevornishida.github.io/cv_")
 } else {
   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/trevornishida/cv/main/NishidaTrevor_CV.pdf)")
 }
@@ -64,6 +65,7 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 ```{r}
+# Add contact information
 CV %>% print_contact_info()
 ```
 
@@ -91,7 +93,7 @@ Trevor Nishida {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-# Note the special double pipe so we modify the CV object in place
+# Add special double pipe so we modify the CV object in place
 CV %<>% print_text_block("intro") 
 ```
 
@@ -112,7 +114,7 @@ Work Experience {data-icon=suitcase}
 CV %<>% print_section('work_exp')
 ```
 
-<!-- These breaks just force a new page so section doesnt get cut off -->
+<!-- These breaks just force a new page so skills section doesn't get cut off -->
 <br>
 <br>
 <br>
