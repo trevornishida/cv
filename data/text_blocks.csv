@@ -1,4 +1,4 @@
 Id used for finding text block,Contents of text block. Supports markdown formatting.
 loc,text
-intro,"I am currently an undergraduate student at the University of Hawaii at Hilo majoring in Marine Science with an interest in coral morphological plasticity and the coral microbiome. I also have an interest in data science tools and artificial intelligence. My largest project to date was the creation of a [prototype data dashboard for Hawaii County](https://www.trevornishida.com/home/hawaii-county-dashboard) and I am obsessed with learning about novel tools being created for the programming language R. 
+intro,"I am currently an undergraduate student at the University of Hawaii at Hilo majoring in Marine Science with an interest in coral morphological plasticity and the coral microbiome. I also have an interest in data science tools and artificial intelligence. My largest project to date was the creation of a [prototype data dashboard for Hawaii County](https://trevornishida.shinyapps.io/CountyDashboard/) and I am obsessed with learning about novel tools being created for the programming language R. 
 "
