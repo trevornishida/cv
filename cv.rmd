@@ -114,12 +114,6 @@ Work Experience {data-icon=suitcase}
 CV %<>% print_section('work_exp')
 ```
 
-<!-- These breaks just force a new page so skills section doesn't get cut off -->
-<br>
-<br>
-<br>
-
-
 Pertinent Skills {data-icon=laptop}
 --------------------------------------------------------------------------------
 
