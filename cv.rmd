@@ -55,7 +55,7 @@ Aside
 ```{r}
 # If printing PDF link to HTML and if printing HTML link location of PDF on Github
 if(params$pdf_mode){
-  cat("View this CV online with links at _trevornishida.github.io/cv_")
+  cat("View this CV online, anytime at _trevornishida.com/cv_")
 } else {
   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/trevornishida/cv/raw/main/NishidaTrevor_CV.pdf)")
 }
@@ -80,7 +80,7 @@ Disclaimer {#disclaimer}
 
 Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
 
-The source code is available on [github.com/trevornishida/cv](https://github.com/trevornishida/cv/).
+Source code is available on [github.com/trevornishida/cv](https://github.com/trevornishida/cv/).
 
 Last updated on `r Sys.Date()`.
 
@@ -94,7 +94,7 @@ Trevor Nishida {#title}
 
 ```{r}
 # Add special double pipe so we modify the CV object in place
-CV %<>% print_text_block("intro") 
+# CV %<>% print_text_block("intro") 
 ```
 
 
