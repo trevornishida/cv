@@ -7,4 +7,4 @@ Using the template CV given to me by the package, I was able to slightly tweak t
 The output can be viewed either by downloading the HTML and opening with the browser of your choosing. Or opening the PDF document.
 Between the two, the HTML file has a bit more interactibility, however they both convey the same information. 
 
-The full HTML file can be viewed on my website [here](trevornishida.com/cv).
+The full HTML file can be viewed on my website [here](https://trevornishida.com/cv).
