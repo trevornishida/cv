@@ -16,6 +16,9 @@ h3 {
   color: #000;
 }
 
+/* Make sure fonts can be bolded */
+strong { font-weight: bold; }
+
 /* When in PDF export mode make sure superscripts are nice and small and italic */
 sup {
   font-size: 0.45rem;

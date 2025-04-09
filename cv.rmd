@@ -121,7 +121,12 @@ Pertinent Skills {data-icon=laptop}
 CV %<>% print_section('skills')
 ```
 
+Presentations {data-icon=easel}
+--------------------------------------------------------------------------------
 
+```{r}
+CV %<>% print_section('presentations')
+```
 
 ```{r}
 CV %<>% print_links()
