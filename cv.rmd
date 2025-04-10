@@ -69,10 +69,21 @@ Contact {#contact}
 CV %>% print_contact_info()
 ```
 
-```{r}
-## CV %>% print_skill_bars()
-```
+## Technical Skills
+I have a strong foundational knowledge in data analytics for ecological research and visualization. My technical skills:
 
+
+<i class="fab fa-r-project fa-fw"></i> `R and R Studio`
+
+<i class="fa-solid fa-chart-simple fa-fw"></i> `Data visualization & presentation`
+
+<i class="fa-solid fa-database fa-fw"></i> `Data cleaning and wrangling`
+
+<i class="fa-brands fa-python fa-fw"></i> `Python`
+
+<i class="fa-solid fa-film fa-fw"></i> `Video editing`
+
+<i class="fa-brands fa-html5 fa-fw"></i> `HTML & CSS`
 
 
 Disclaimer {#disclaimer}
@@ -102,6 +113,7 @@ Trevor Nishida {#title}
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
+
 ```{r}
 CV %<>% print_section('education')
 ```
@@ -114,14 +126,16 @@ Work Experience {data-icon=suitcase}
 CV %<>% print_section('work_exp')
 ```
 
-Pertinent Skills {data-icon=laptop}
---------------------------------------------------------------------------------
 
-```{r}
-CV %<>% print_section('skills')
-```
+<!-- Moved skills to side bar -->
+<!-- Pertinent Skills {data-icon=laptop} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-Presentations {data-icon=easel}
+<!-- ```{r} -->
+<!-- CV %<>% print_section('skills', glue_template = 'skills') -->
+<!-- ``` -->
+
+Presentations {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}

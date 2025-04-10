@@ -148,6 +148,18 @@ print_section <- function(cv, section_id, glue_template = "default"){
 {description_bullets}
 \n\n\n"
   }
+  
+  if(glue_template == "skills"){
+    glue_template <- "
+### {title}
+
+{timeline}
+
+{description_bullets}
+\n\n\n"
+  }
+  
+  
 
   section_data <- dplyr::filter(cv$entries_data, section == section_id)
 
